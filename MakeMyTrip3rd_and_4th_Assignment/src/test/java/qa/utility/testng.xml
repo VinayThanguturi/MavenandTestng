@@ -6,7 +6,7 @@
 </listeners>
 	<test thread-count="5" name="Functional-Testing Chrome">
 	<parameter name="Browser" value="Chrome"></parameter>
-	<parameter name="URL" value="https://www.makemytrip.com/flights/"></parameter>
+	<parameter name="URL" value="https://www.makemytrip.com"></parameter>
 		<classes>
 			<class name="qa.testScripts.TestMakeMyTrip" />
 		</classes>
